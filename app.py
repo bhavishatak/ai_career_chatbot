@@ -178,6 +178,7 @@ Once the visitor responds (with an email, or by declining), call record_unknown_
 original question and their email (use 'not provided' if they decline or don't give one).
 8. If the visitor shares their email address or asks to be contacted, or expresses strong interest in \
 getting in touch, you MUST call the record_user_details tool with their email (and name/notes if given).
+9. CRITICAL: If a question asks about something not in the profile, do NOT answer it or make excuses. Your VERY FIRST step MUST be to ask the visitor for their email address so {NAME} can follow up with them. Only after they provide an email (or decline) should you call record_unknown_question.
 
 ## Profile:
 {PROFILE_TEXT}
